@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,9 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="k1P-NO-h0n">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B64-rD-fi2">
                                 <rect key="frame" x="16" y="617" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.43921568630000002" green="0.2274509804" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -73,11 +69,7 @@
                             <constraint firstItem="B64-rD-fi2" firstAttribute="top" secondItem="FWL-w2-uUm" secondAttribute="bottom" constant="8" id="Daq-Ov-7q9"/>
                             <constraint firstItem="6am-rT-obe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Je2-Bw-LVe"/>
                             <constraint firstItem="6am-rT-obe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="NSy-hp-SDY"/>
-                            <constraint firstItem="k1P-NO-h0n" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dE5-J8-8ti"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="B64-rD-fi2" secondAttribute="bottom" constant="20" id="duf-wP-TvL"/>
-                            <constraint firstAttribute="trailing" secondItem="k1P-NO-h0n" secondAttribute="trailing" id="hX3-bL-hJP"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="k1P-NO-h0n" secondAttribute="bottom" id="vY9-yN-N31"/>
-                            <constraint firstItem="k1P-NO-h0n" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="x5W-Zi-KgS"/>
                             <constraint firstItem="FWL-w2-uUm" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xX9-V5-rda"/>
                             <constraint firstItem="FWL-w2-uUm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xhd-7t-Czk"/>
                             <constraint firstItem="B64-rD-fi2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ysj-Qk-OSe"/>
@@ -90,7 +82,4 @@
             <point key="canvasLocation" x="-262" y="44"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="1" width="16" height="16"/>
-    </resources>
 </document>

@@ -1,5 +1,5 @@
 PODS:
-  - ContentSheet (0.1.2)
+  - ContentSheet (0.1.5)
 
 DEPENDENCIES:
   - ContentSheet (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ContentSheet: 367f2ba330cbaddad27088e8d36dd927c9d44c14
+  ContentSheet: 27ebe755cec340d7b6d2d5ad42b7e500172d8cf8
 
 PODFILE CHECKSUM: e5a0465b2e72b8da225bfb117c12555b6310a100
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.0
